@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="gTV-IL-0wX" customClass="PlaceCell" customModule="ThePlace2019" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="90" height="119"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="90" height="119"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TGm-sw-X60">
+                        <rect key="frame" x="0.0" y="0.0" width="90" height="119"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wkE-aK-ZMr">
+                                <rect key="frame" x="0.0" y="0.0" width="90" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="MhC-4R-JRn"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PO7-FS-rG7">
+                                <rect key="frame" x="8" y="72" width="74" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YGb-Ke-oA9">
+                                <rect key="frame" x="8" y="95" width="74" height="16"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="wkE-aK-ZMr" firstAttribute="top" secondItem="TGm-sw-X60" secondAttribute="top" id="0rg-WM-KHs"/>
+                            <constraint firstItem="YGb-Ke-oA9" firstAttribute="top" secondItem="PO7-FS-rG7" secondAttribute="bottom" constant="7" id="3aU-L5-Rd9"/>
+                            <constraint firstItem="wkE-aK-ZMr" firstAttribute="leading" secondItem="TGm-sw-X60" secondAttribute="leading" id="SCW-yy-2kx"/>
+                            <constraint firstItem="YGb-Ke-oA9" firstAttribute="leading" secondItem="TGm-sw-X60" secondAttribute="leading" constant="8" id="SRM-Mt-hFl"/>
+                            <constraint firstAttribute="bottom" secondItem="YGb-Ke-oA9" secondAttribute="bottom" constant="8" id="SsK-Se-HCK"/>
+                            <constraint firstAttribute="trailing" secondItem="PO7-FS-rG7" secondAttribute="trailing" constant="8" id="arh-GV-RIh"/>
+                            <constraint firstItem="PO7-FS-rG7" firstAttribute="leading" secondItem="TGm-sw-X60" secondAttribute="leading" constant="8" id="ayW-d7-XdZ"/>
+                            <constraint firstAttribute="trailing" secondItem="YGb-Ke-oA9" secondAttribute="trailing" constant="8" id="diL-WA-Dlp"/>
+                            <constraint firstAttribute="trailing" secondItem="wkE-aK-ZMr" secondAttribute="trailing" id="fiQ-Ht-lK8"/>
+                            <constraint firstItem="PO7-FS-rG7" firstAttribute="top" secondItem="wkE-aK-ZMr" secondAttribute="bottom" constant="8" id="hCl-wZ-Vj5"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="TGm-sw-X60" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="RN6-Yv-aV4"/>
+                <constraint firstAttribute="bottom" secondItem="TGm-sw-X60" secondAttribute="bottom" id="Y9c-Rg-yfI"/>
+                <constraint firstAttribute="trailing" secondItem="TGm-sw-X60" secondAttribute="trailing" id="dnr-ss-YNj"/>
+                <constraint firstItem="TGm-sw-X60" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="emm-HL-m6E"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="90" height="119"/>
+            <connections>
+                <outlet property="imageView" destination="wkE-aK-ZMr" id="N6a-Sp-BJh"/>
+                <outlet property="priceLabel" destination="YGb-Ke-oA9" id="Xom-73-YX0"/>
+                <outlet property="titleLabel" destination="PO7-FS-rG7" id="fM7-7T-zDT"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="109.48660714285714"/>
+        </collectionViewCell>
+    </objects>
+</document>
