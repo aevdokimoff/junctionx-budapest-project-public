@@ -1,1 +1,18 @@
 # hackathon-junctionx-budapest-project
+
+## See our presentation:
+
+![](Presentation/The_Place_Presentation-01.jpg)
+![](Presentation/The_Place_Presentation-02.jpg)
+![](Presentation/The_Place_Presentation-03.jpg)
+![](Presentation/The_Place_Presentation-04.jpg)
+![](Presentation/The_Place_Presentation-05.jpg)
+![](Presentation/The_Place_Presentation-06.jpg)
+![](Presentation/The_Place_Presentation-07.jpg)
+![](Presentation/The_Place_Presentation-08.jpg)
+![](Presentation/The_Place_Presentation-09.jpg)
+![](Presentation/The_Place_Presentation-10.jpg)
+![](Presentation/The_Place_Presentation-11.jpg)
+![](Presentation/The_Place_Presentation-12.jpg)
+![](Presentation/The_Place_Presentation-13.jpg)
+![](Presentation/The_Place_Presentation-14.jpg)
