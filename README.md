@@ -2,6 +2,7 @@
 
 ## See our demo:
 [![Demo ThePlace](https://media.giphy.com/media/JoPcxmh13GnkQUVvXZ/giphy.gif)](https://youtu.be/MfM8Iy2E0R8)
+Click [here](https://youtu.be/MfM8Iy2E0R8) to check out our demo video on YouTube!
 
 ## See our presentation:
 
