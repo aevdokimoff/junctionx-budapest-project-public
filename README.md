@@ -5,19 +5,12 @@
 
 Click [here](https://youtu.be/MfM8Iy2E0R8) to check out our demo video on YouTube!
 
-## See our presentation:
+«The place» is a tool to animals and humans to prevent and reduce the disruptions caused by and to human-built structures. Just  enter an address, choose building style, features and facilities, see the animal movement pattern and restrictions due to this and get some recommendations! 
 
-![](Presentation/The_Place_Presentation-01.jpg)
-![](Presentation/The_Place_Presentation-02.jpg)
-![](Presentation/The_Place_Presentation-03.jpg)
-![](Presentation/The_Place_Presentation-04.jpg)
-![](Presentation/The_Place_Presentation-05.jpg)
-![](Presentation/The_Place_Presentation-06.jpg)
-![](Presentation/The_Place_Presentation-07.jpg)
-![](Presentation/The_Place_Presentation-08.jpg)
-![](Presentation/The_Place_Presentation-09.jpg)
-![](Presentation/The_Place_Presentation-10.jpg)
-![](Presentation/The_Place_Presentation-11.jpg)
-![](Presentation/The_Place_Presentation-12.jpg)
-![](Presentation/The_Place_Presentation-13.jpg)
-![](Presentation/The_Place_Presentation-14.jpg)
+ThePlace is PoC MVP application that uses heat maps, cluster analysis and computer vision to detect new animals and add them to the database. 
+
+Who can use it? Actually, everybody: an ordinary person, big corporations & companies, government and also animal welfare organisations.
+
+You like our idea? Download the project and use it as you wish and/or see our presentation:
+
+## Our presentation:
