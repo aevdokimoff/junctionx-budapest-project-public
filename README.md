@@ -5,7 +5,7 @@
 
 Click [here](https://youtu.be/MfM8Iy2E0R8) to check out our demo video on YouTube!
 
-ThePlace is a Google's case made at [Hackathon JunctionX in Budapest](https://budapest.hackjunction.com). It is a tool for animals and humans, which helps to prevent and reduce disruptions caused by human-built structures. Just enter an address, choose building style, features and facilities, see the animal movement pattern and restrictions due to this and get some recommendations! 
+ThePlace is an application for Google's case made at [Hackathon JunctionX in Budapest](https://budapest.hackjunction.com). It is a tool for animals and humans, which helps to prevent and reduce disruptions caused by human-built structures. Just enter an address, choose building style, features and facilities, see the animal movement pattern and restrictions due to this and get some recommendations! 
 
 ThePlace is PoC MVP application that uses heat maps, cluster analysis and computer vision to detect new animals and add them to the database. 
 
