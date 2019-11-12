@@ -13,4 +13,4 @@ Who can use it? Actually, everybody: an ordinary person, big corporations & comp
 
 You like our idea? Clone the repo and use this project as you wish and/or see our [presentation](https://github.com/aevdokimoff/junctionx-budapest-project-public/blob/master/The_Place_Presentation.pdf)! ❤️
 
-Visit my website: [http://aevdokimoff.github.io](aevdokimoff.github.io)
+Visit my website: http://aevdokimoff.github.io
